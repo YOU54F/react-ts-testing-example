@@ -42,5 +42,5 @@ jobs:
       # run linters!
       - run: yarn lint
 
-      # run the app!
-      - run: yarn start
+      # # run the app!
+      # - run: yarn start
