@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About Page can render the About page 1`] = `
+<div
+  className="about-page-container"
+  id="paragraphs"
+>
+  <p
+    className="fade-out fade-in"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "An example website written in TypeScript & React.",
+      }
+    }
+    style={
+      Object {
+        "animationDelay": "0s",
+      }
+    }
+  />
+  <p
+    className="fade-out fade-in"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "To demonstrate various testing techniques",
+      }
+    }
+    style={
+      Object {
+        "animationDelay": "0.75s",
+      }
+    }
+  />
+  <p
+    className="fade-out fade-in"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "such as unit testing with jest",
+      }
+    }
+    style={
+      Object {
+        "animationDelay": "1.5s",
+      }
+    }
+  />
+  <p
+    className="fade-out fade-in"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "cross-browser compatability testing.",
+      }
+    }
+    style={
+      Object {
+        "animationDelay": "2.25s",
+      }
+    }
+  />
+  <p
+    className="fade-out fade-in"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "ui testing with cypress.",
+      }
+    }
+    style={
+      Object {
+        "animationDelay": "3s",
+      }
+    }
+  />
+</div>
+`;

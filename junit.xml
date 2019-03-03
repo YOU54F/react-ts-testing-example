@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="14" failures="0" time="3.924">
+  <testsuite name="Contact Page" errors="0" failures="0" skipped="0" timestamp="2019-03-03T04:42:40" time="0.744" tests="5">
+    <testcase classname="Contact Page renders a name input" name="Contact Page renders a name input" time="0.009">
+    </testcase>
+    <testcase classname="Contact Page renders a email input" name="Contact Page renders a email input" time="0.001">
+    </testcase>
+    <testcase classname="Contact Page renders a message input" name="Contact Page renders a message input" time="0">
+    </testcase>
+    <testcase classname="Contact Page renders a submit button" name="Contact Page renders a submit button" time="0.001">
+    </testcase>
+    <testcase classname="Contact Page can render the Contact page" name="Contact Page can render the Contact page" time="0.01">
+    </testcase>
+  </testsuite>
+  <testsuite name="Grid Display" errors="0" failures="0" skipped="0" timestamp="2019-03-03T04:42:40" time="0.227" tests="4">
+    <testcase classname="Grid Display can render a grid with a no strings in the array" name="Grid Display can render a grid with a no strings in the array" time="0.003">
+    </testcase>
+    <testcase classname="Grid Display can render a grid with a single string in the array" name="Grid Display can render a grid with a single string in the array" time="0.002">
+    </testcase>
+    <testcase classname="Grid Display can render a grid with a 2 strings in the array" name="Grid Display can render a grid with a 2 strings in the array" time="0.001">
+    </testcase>
+    <testcase classname="Grid Display can render a grid with a collection or urls in the array" name="Grid Display can render a grid with a collection or urls in the array" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Gallery Page" errors="0" failures="0" skipped="0" timestamp="2019-03-03T04:42:41" time="0.218" tests="2">
+    <testcase classname="Gallery Page renders the gallery grid" name="Gallery Page renders the gallery grid" time="0.003">
+    </testcase>
+    <testcase classname="Gallery Page can render the Gallery page" name="Gallery Page can render the Gallery page" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="About Page" errors="0" failures="0" skipped="0" timestamp="2019-03-03T04:42:41" time="0.217" tests="2">
+    <testcase classname="About Page renders an about paragraph" name="About Page renders an about paragraph" time="0.004">
+    </testcase>
+    <testcase classname="About Page can render the About page" name="About Page can render the About page" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Parallax Effect" errors="0" failures="0" skipped="0" timestamp="2019-03-03T04:42:41" time="0.211" tests="1">
+    <testcase classname="Parallax Effect can render the parallax effect" name="Parallax Effect can render the parallax effect" time="0.002">
+    </testcase>
+  </testsuite>
+</testsuites>

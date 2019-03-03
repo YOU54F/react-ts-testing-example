@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact Page can render the Contact page 1`] = `
+<div
+  className="contact-page-container"
+>
+  <div
+    className="form-message"
+  >
+    <p
+      className="fade-out fade-in"
+    >
+      An example form that doesn't submit anything
+    </p>
+    <p
+      className="fade-out fade-in"
+      style={
+        Object {
+          "animationDelay": "0.755s",
+        }
+      }
+    >
+      Click 
+      <a
+        href="mailto:yousafn@gmail.com"
+        rel="noopener noreferrer"
+      >
+        here
+      </a>
+       to send me an email.
+    </p>
+  </div>
+  <form
+    className="contact-form"
+  >
+    <div
+      className="input-container fade-out fade-in"
+      style={
+        Object {
+          "animationDelay": "1.5s",
+        }
+      }
+    >
+      <input
+        className="input"
+        id="Name"
+        placeholder="Name"
+        type="text"
+      />
+    </div>
+    <div
+      className="input-container fade-out fade-in"
+      style={
+        Object {
+          "animationDelay": "2.25s",
+        }
+      }
+    >
+      <input
+        className="input"
+        id="Email"
+        placeholder="Email"
+        type="email"
+      />
+    </div>
+    <div
+      className="input-container fade-out fade-in"
+      style={
+        Object {
+          "animationDelay": "3s",
+        }
+      }
+    >
+      <textarea
+        className="input"
+        id="Message"
+        placeholder="Message"
+      />
+    </div>
+    <button
+      className="button fade-out fade-in"
+      id="Submit"
+      style={
+        Object {
+          "animationDelay": "3.75s",
+        }
+      }
+      type="button"
+    >
+      Submit
+    </button>
+  </form>
+</div>
+`;

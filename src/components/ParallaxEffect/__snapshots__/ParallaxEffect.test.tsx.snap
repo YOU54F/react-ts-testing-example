@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Parallax Effect can render the parallax effect 1`] = `
+<div
+  className="parallax-effect-container"
+>
+  <div
+    className="parallax-image"
+    style={
+      Object {
+        "backgroundImage": "url(https://66.media.tumblr.com/6d884fe09d90b1bac096df349d7b7b38/tumblr_orxj4oc6AH1uu9fqho1_500.gif)",
+      }
+    }
+  />
+  <div
+    className="parallax-text-container"
+  >
+    <span
+      className="parallax-text"
+      id="parallax-text"
+      style={
+        Object {
+          "backgroundImage": "url(https://66.media.tumblr.com/6d884fe09d90b1bac096df349d7b7b38/tumblr_orxj4oc6AH1uu9fqho1_500.gif)",
+        }
+      }
+    >
+      An example website
+    </span>
+  </div>
+</div>
+`;

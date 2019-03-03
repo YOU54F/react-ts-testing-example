@@ -34,7 +34,14 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
-      - run: yarn test
+      - run: yarn test:coverage
+
+      - store_test_results:
+          path: testReports
+          when: always
+
+      - store_artifacts:
+          path: coverage
 
       # run build!
       - run: yarn build
@@ -43,4 +50,25 @@ jobs:
       - run: yarn lint
 
       # # run the app!
-      # - run: yarn start
+      - run: yarn ci
+
+      - run:
+          name: Combine MochaAwesome Reports
+          when: always
+          command: make combine-reports     
+      - store_test_results:
+          path: cypress/reports
+      - store_artifacts:
+          path: mochareports
+      - store_artifacts:
+          path: cypress/videos
+      - store_artifacts:
+          path: cypress/screenshots
+    #   - run:
+    #       name: Publish test artefacts s3 bucket
+    #       when: always
+    #       command: make publish-reports-s3
+      - run:
+          name: Slack Custom Reporting
+          when: always
+          command: make slack-alert 

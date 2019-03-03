@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "es5",
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "types": ["cypress", "cypress-testing-library", "node"],
+  }
+}

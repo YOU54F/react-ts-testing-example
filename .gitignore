@@ -21,3 +21,9 @@ yarn-debug.log*
 yarn-error.log*
 
 .vscode
+
+.env
+logs
+reports
+videos
+screenshots

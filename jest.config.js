@@ -8,8 +8,9 @@ module.exports = {
   transform: {
     "^.+\\.(ts|tsx)$": "ts-jest"
   },
-  testMatch: ["**/*.test.(ts)"],
+  testMatch: ["**/**/**/**/**/.test.(tsx)"],
   testEnvironment: "node",
   reporters: ["default", "jest-junit"],
   coverageDirectory: "./coverage",
+  collectCoverage: true
 };

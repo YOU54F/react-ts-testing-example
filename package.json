@@ -3,20 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/enzyme": "^3.9.0",
     "@types/jest": "^24.0.4",
     "@types/react": "^16.8.6",
     "@types/react-dom": "^16.8.2",
     "@types/react-router-dom": "^4.3.1",
+    "add": "^2.0.6",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.10.0",
+    "jest-enzyme": "^7.0.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.5"
+    "react-scripts": "2.1.5",
+    "yarn": "^1.13.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test:coverage": "react-scripts test --coverage",
+    "test:cypress": "cypress run",
+    "test:coverage": "react-scripts test --coverage --reporters=default --reporters=jest-junit --reporters=jest-stare",
+    "ci": "start-server-and-test start http://localhost:3000 test:cypress",
     "eject": "react-scripts eject",
     "lint-ts": "tslint --project .",
     "lint-scss": "stylelint ./src/**/**/*.css",
@@ -26,7 +34,7 @@
   },
   "lint-staged": {
     "linters": {
-      "*.scss": [
+      "*.css": [
         "prettier --write",
         "stylelint",
         "git add"
@@ -47,6 +55,7 @@
     }
   },
   "eslintConfig": {
+    "parser": "babel-eslint",
     "plugins": [
       "compat"
     ],
@@ -70,36 +79,53 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "jest-junit": {
-    "outputDirectory": "./testReports/",
-    "collectCoverage": true,
-    "coverageReporters": [
-      "text",
-      "html"
-    ]
-  },
   "jest-stare": {
     "coverageLink": "../lcov-report/index.html",
     "resultDir": "coverage/html"
   },
+  "jest-junit": {
+    "outputDirectory": "./testReports/",
+    "reportDir": "testReports/unit"
+  },
   "devDependencies": {
+    "@cypress/webpack-preprocessor": "^4.0.2",
+    "@slack/client": "^4.8.0",
+    "@types/node": "^10.12.11",
     "@types/react-test-renderer": "^16.8.1",
+    "aws-sdk": "^2.286.2",
     "compat-cli": "^0.1.3",
+    "cypress": "3.1.4",
+    "cypress-cucumber-preprocessor": "1.9.1",
+    "cypress-failed-log": "^2.4.0",
+    "cypress-testing-library": "2.3.4",
     "eslint-plugin-compat": "^2.7.0",
     "husky": "^1.1.2",
+    "lint-staged": "^8.0.0",
     "jest-html-reporter": "^2.4.2",
     "jest-junit": "^6.3.0",
     "jest-stare": "^1.8.0",
+    "mocha": "^5.2.0",
+    "mocha-junit-reporter": "^1.18.0",
+    "mocha-multi-reporters": "^1.1.7",
+    "mochawesome": "^3.1.1",
     "npm-run-all": "^4.1.3",
     "prettier": "^1.14.3",
     "react-test-renderer": "^16.8.3",
+    "shelljs": "^0.8.2",
+    "sonarqube-scanner": "^2.1.2",
+    "start-server-and-test": "^1.7.11",
     "stylelint": "^9.7.0",
     "stylelint-config-standard": "^18.2.0",
     "stylelint-no-unsupported-browser-features": "^3.0.2",
     "ts-jest": "^24.0.0",
+    "ts-loader": "^5.3.1",
     "tslint": "^5.12.1",
     "tslint-config-prettier": "^1.17.0",
     "tslint-react": "^3.6.0",
-    "typescript": "^3.3.3333"
+    "typescript": "^3.3.3333",
+    "uuid": "^3.3.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false
   }
 }
