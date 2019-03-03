@@ -27,10 +27,10 @@
     "ci": "start-server-and-test start http://localhost:3000 test:cypress",
     "eject": "react-scripts eject",
     "lint-ts": "tslint --project .",
-    "lint-scss": "stylelint ./src/**/**/*.css",
+    "lint-css": "stylelint ./src/**/**/*.css",
     "lint-caniuse": "eslint ./build/**/**/**.js",
     "lint-compat": "compat",
-    "lint": "npm-run-all lint-ts lint-scss lint-caniuse lint-compat"
+    "lint": "npm-run-all lint-ts lint-css lint-caniuse lint-compat"
   },
   "lint-staged": {
     "linters": {

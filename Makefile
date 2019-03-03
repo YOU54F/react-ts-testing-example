@@ -1,5 +1,3 @@
-DOCKERIMGNAME=cypresstestdocker
-DOCKERRUNCMD=docker-compose run --rm $(DOCKERIMGNAME)
 CYPRESSRUNCMD=npx cypress run
 CYPRESSGUICMD=npx cypress open
 
