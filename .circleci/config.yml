@@ -17,18 +17,18 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - v2-deps-{{ .Branch }}-{{ checksum "yarn-lock.json" }}
-            - v2-deps-{{ .Branch }}-
-            - v2-deps-
+            - v3-deps-{{ .Branch }}-{{ checksum "yarn.lock" }}
+            - v3-deps-{{ .Branch }}-
+            - v3-deps-
       - run: yarn install
       - save_cache:
-          key: v2-deps-{{ .Branch }}-{{ checksum "yarn-lock.json" }}
+          key: v3-deps-{{ .Branch }}-{{ checksum "yarn.lock" }}
           paths:
             - ~/.npm
             - ~/.cache
       - run:
           name: Install jq
-          command: cd e2e && apt-get install jq xsel  
+          command: apt-get install jq xsel  
 
       # run tests!
       - run: yarn test:coverage
