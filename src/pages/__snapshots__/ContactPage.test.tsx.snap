@@ -20,14 +20,16 @@ exports[`Contact Page can render the Contact page 1`] = `
         }
       }
     >
-      Click 
+      Click
+       
       <a
         href="mailto:yousafn@gmail.com"
         rel="noopener noreferrer"
       >
         here
       </a>
-       to send me an email.
+       
+      to send me an email.
     </p>
   </div>
   <form
