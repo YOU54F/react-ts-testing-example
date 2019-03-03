@@ -69,3 +69,8 @@ jobs:
           name: Slack Custom Reporting
           when: always
           command: make slack-alert 
+
+workflows:
+  build-test:
+    jobs:
+      - test
