@@ -3,5 +3,5 @@
   "ignoreFeatures": ["Object static methods"],
   "jsEnvs": ["ie11","chrome74",
     "edge16","firefox67","safari12_1",
-    "ios12","samsung8_2","android4_4_3"]
+    "ios12","samsung8_2"]
 }

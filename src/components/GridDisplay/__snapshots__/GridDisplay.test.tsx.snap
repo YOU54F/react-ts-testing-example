@@ -1,0 +1,280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid Display can render a grid with a 2 strings in the array 1`] = `
+<div
+  className="grid-display-container"
+>
+  <div
+    className="grid-item fade-out fade-in"
+    style={
+      Object {
+        "animationDelay": "0s",
+      }
+    }
+  >
+    <p
+      className="grid-text"
+    >
+      foo
+    </p>
+  </div>
+  <div
+    className="grid-item fade-out fade-in"
+    style={
+      Object {
+        "animationDelay": "0.5s",
+      }
+    }
+  >
+    <p
+      className="grid-text"
+    >
+      bar
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Grid Display can render a grid with a collection or urls in the array 1`] = `
+<div
+  className="grid-display-container"
+>
+  <div
+    className="grid-item fade-out fade-in"
+    style={
+      Object {
+        "animationDelay": "0s",
+      }
+    }
+  >
+    <img
+      alt="grid-item"
+      className="grid-image"
+      src="https://loremflickr.com/100/150"
+    />
+  </div>
+  <div
+    className="grid-item fade-out fade-in"
+    style={
+      Object {
+        "animationDelay": "0.5s",
+      }
+    }
+  >
+    <p
+      className="grid-text"
+    >
+      An
+    </p>
+  </div>
+  <div
+    className="grid-item fade-out fade-in"
+    style={
+      Object {
+        "animationDelay": "1s",
+      }
+    }
+  >
+    <img
+      alt="grid-item"
+      className="grid-image"
+      src="https://loremflickr.com/100/150"
+    />
+  </div>
+  <div
+    className="grid-item fade-out fade-in"
+    style={
+      Object {
+        "animationDelay": "1.5s",
+      }
+    }
+  >
+    <p
+      className="grid-text"
+    >
+       
+    </p>
+  </div>
+  <div
+    className="grid-item fade-out fade-in"
+    style={
+      Object {
+        "animationDelay": "2s",
+      }
+    }
+  >
+    <img
+      alt="grid-item"
+      className="grid-image"
+      src="https://loremflickr.com/100/150"
+    />
+  </div>
+  <div
+    className="grid-item fade-out fade-in"
+    style={
+      Object {
+        "animationDelay": "2.5s",
+      }
+    }
+  >
+    <p
+      className="grid-text"
+    >
+       
+    </p>
+  </div>
+  <div
+    className="grid-item fade-out fade-in"
+    style={
+      Object {
+        "animationDelay": "3s",
+      }
+    }
+  >
+    <img
+      alt="grid-item"
+      className="grid-image"
+      src="https://loremflickr.com/100/150"
+    />
+  </div>
+  <div
+    className="grid-item fade-out fade-in"
+    style={
+      Object {
+        "animationDelay": "3.5s",
+      }
+    }
+  >
+    <p
+      className="grid-text"
+    >
+      Example
+    </p>
+  </div>
+  <div
+    className="grid-item fade-out fade-in"
+    style={
+      Object {
+        "animationDelay": "4s",
+      }
+    }
+  >
+    <img
+      alt="grid-item"
+      className="grid-image"
+      src="https://loremflickr.com/100/150"
+    />
+  </div>
+  <div
+    className="grid-item fade-out fade-in"
+    style={
+      Object {
+        "animationDelay": "4.5s",
+      }
+    }
+  >
+    <p
+      className="grid-text"
+    >
+       
+    </p>
+  </div>
+  <div
+    className="grid-item fade-out fade-in"
+    style={
+      Object {
+        "animationDelay": "5s",
+      }
+    }
+  >
+    <img
+      alt="grid-item"
+      className="grid-image"
+      src="https://loremflickr.com/100/150"
+    />
+  </div>
+  <div
+    className="grid-item fade-out fade-in"
+    style={
+      Object {
+        "animationDelay": "5.5s",
+      }
+    }
+  >
+    <p
+      className="grid-text"
+    >
+       
+    </p>
+  </div>
+  <div
+    className="grid-item fade-out fade-in"
+    style={
+      Object {
+        "animationDelay": "6s",
+      }
+    }
+  >
+    <img
+      alt="grid-item"
+      className="grid-image"
+      src="https://loremflickr.com/100/150"
+    />
+  </div>
+  <div
+    className="grid-item fade-out fade-in"
+    style={
+      Object {
+        "animationDelay": "6.5s",
+      }
+    }
+  >
+    <p
+      className="grid-text"
+    >
+      Website
+    </p>
+  </div>
+  <div
+    className="grid-item fade-out fade-in"
+    style={
+      Object {
+        "animationDelay": "7s",
+      }
+    }
+  >
+    <img
+      alt="grid-item"
+      className="grid-image"
+      src="https://loremflickr.com/100/150"
+    />
+  </div>
+</div>
+`;
+
+exports[`Grid Display can render a grid with a no strings in the array 1`] = `
+<div
+  className="grid-display-container"
+/>
+`;
+
+exports[`Grid Display can render a grid with a single string in the array 1`] = `
+<div
+  className="grid-display-container"
+>
+  <div
+    className="grid-item fade-out fade-in"
+    style={
+      Object {
+        "animationDelay": "0s",
+      }
+    }
+  >
+    <p
+      className="grid-text"
+    >
+      foo
+    </p>
+  </div>
+</div>
+`;

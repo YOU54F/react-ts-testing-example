@@ -17,7 +17,7 @@ export class About extends React.Component<{}, {}> {
                             <p 
                             key={i}
                             className="fade-out fade-in" 
-                            style={{ animationDelay: (i*0.75)+"s" }} 
+                            style={{ animationDelay: (i*0.75 ) + "s", }} 
                             dangerouslySetInnerHTML={{__html: p}} />
                         )
                     })

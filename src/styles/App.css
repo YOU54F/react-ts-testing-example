@@ -3,7 +3,6 @@
 @import '../components/ParallaxEffect/parallax-effect.css';
 @import './about.css';
 @import './contact.css';
-@import './gallery.css';
 
 * {
   font-family: 'Open Sans', sans-serif;

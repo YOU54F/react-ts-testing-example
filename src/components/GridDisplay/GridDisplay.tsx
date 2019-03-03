@@ -12,7 +12,7 @@ export class GridDisplay extends React.Component<GridDisplayProps, {}> {
             {
                 this.props.gridItems.map((gridItem,i) => {
                     return(
-                        <div key={i} className={`grid-item fade-out fade-in${gridItem.length < 1 ? " empty" : ""}`} style={{ animationDelay: (i*0.5)+"s" }}>
+                        <div key={i} className={`grid-item fade-out fade-in${gridItem.length < 1 ? " empty" : ""}`} style={{ animationDelay: (i*0.5 ) +"s", }}>
                             {
                                 gridItem.includes("http") && <img src={gridItem} key={`0${i}`} alt="grid-item" className="grid-image"/>
                             }
