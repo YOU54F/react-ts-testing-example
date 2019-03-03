@@ -116,8 +116,12 @@ npx compat --supportedEnvs
 
 We can use `cypress` along with `start-server-and-test` to start our app, run our tests and shutdown our app.
 
-``` To run
-yarn run ci
+``` To run in commannd line
+yarn run test:ci
+```
+
+``` To run cypress in GUI mode with the app running in the background
+yarn run test:dev
 ```
 
 ## Typescript with Cypress
@@ -166,10 +170,12 @@ If it's URI_ROOT is not, and you select `--env configFile=development` the appli
 
 ## Running tests locally via Make
 
-- `make test-local`
+- `make test-local` - depends on web app running locally
 - `make test-qa`
 - `make test-staging`
 - `make test-production`
+- `make test-ci` - will start and stop web app for you
+- `make test-dev` - will start and stop web app for you
 
 ## Direct from the command line
 
@@ -260,6 +266,5 @@ We run `make test-record` to set the `--record` flag and publish the results to 
 ## TODO
 
 - Write up on Jest unit tests with snapshots and enzyme
-- Write cypress tests for the site (currently using examples from my cypressio-docker-typescript repo)
-- Cypress scripts need unit tests and examples
+- Cypress scripts for reporting need unit tests
 - publish to s3 bucket needs error handling, should exit each function gracefully if the directories are empty

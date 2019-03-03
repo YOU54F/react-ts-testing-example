@@ -41,13 +41,13 @@ class App extends Component {
                 <hr />
                 <nav className="page-navigation">
                   <li>
-                    <NavLink to="/gallery">Gallery</NavLink>
+                    <NavLink to="/gallery" id="gallery-link">Gallery</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/about">About</NavLink>
+                    <NavLink to="/about" id="about-link">About</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/contact">Contact</NavLink>
+                    <NavLink to="/contact" id="contact-link">Contact</NavLink>
                   </li>
                 </nav>
               </header>
@@ -69,9 +69,9 @@ class App extends Component {
             parallaxTextBackground = "https://66.media.tumblr.com/6d884fe09d90b1bac096df349d7b7b38/tumblr_orxj4oc6AH1uu9fqho1_500.gif" 
         />
         <footer>
-         <p><a href="http://www.github.com/you54f" target="_blank" rel="noopener noreferrer">Github</a></p>
-         <p><a href="mailto:yousafn@gmail.com" rel="noopener noreferrer">Email</a></p>
-         <p><a href="https://twitter.com/you54f" target="_blank" rel="noopener noreferrer">Twitter</a></p>
+         <p><a href="http://www.github.com/you54f" target="_blank" rel="noopener noreferrer" id="github-footer">Github</a></p>
+         <p><a href="mailto:yousafn@gmail.com" rel="noopener noreferrer"id="email-footer">Email</a></p>
+         <p><a href="https://twitter.com/you54f" target="_blank" rel="noopener noreferrer"id="twitter-footer">Twitter</a></p>
         </footer>
       </div>
     );

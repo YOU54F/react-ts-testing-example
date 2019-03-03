@@ -47,7 +47,7 @@ jobs:
       - run: yarn lint
 
       # # run the app!
-      - run: yarn ci
+      - run: make test-ci
 
       - run:
           name: Combine MochaAwesome Reports

@@ -1,8 +1,15 @@
 CYPRESSRUNCMD=npx cypress run
 CYPRESSGUICMD=npx cypress open
+YARNRUN=yarn run
 
 test:
 	$(CYPRESSRUNCMD)
+	
+test-ci:
+	$(YARNRUN) test:ci
+	
+test-dev:
+	$(YARNRUN) test:dev
 	
 test-gui:
 	$(CYPRESSGUICMD)
