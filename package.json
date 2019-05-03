@@ -61,10 +61,6 @@
     "rules": {
       "compat/compat": "warn"
     },
-    "extends": [
-      "eslint:recommended",
-      "plugin:react/recommended"
-    ],
     "settings": {
       "polyfills": [
         ""
