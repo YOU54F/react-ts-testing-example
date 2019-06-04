@@ -6,7 +6,7 @@
   "email": "yousafn@gmail.com",
   "repository": "https://github.com/YOU54F/react-ts-testing-example",
   "dependencies": {
-    "enzyme": "3.9.0",
+    "enzyme": "3.10.0",
     "enzyme-adapter-react-16": "1.14.0",
     "formik": "1.5.7",
     "jest-enzyme": "7.0.2",
