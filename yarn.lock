@@ -9499,7 +9499,26 @@ mochawesome-merge@1.0.7:
     uuid "^3.3.2"
     yargs "^12.0.5"
 
-mochawesome-report-generator@3.1.5, mochawesome-report-generator@^3.0.1:
+mochawesome-report-generator@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/mochawesome-report-generator/-/mochawesome-report-generator-4.0.0.tgz#34c6158d440e8be5b2cdd0d0dc5af3a02c44464a"
+  integrity sha512-kdVOUKOc3oe1keZYLE3f3gbC0dpzuLusGG8jHGA0hD6agdIs3vc0SvDd5Iq9LQXop9kHCxzCBX+q1py9qThkwg==
+  dependencies:
+    chalk "^2.4.2"
+    dateformat "^3.0.2"
+    fs-extra "^7.0.0"
+    fsu "^1.0.2"
+    lodash.isfunction "^3.0.8"
+    opener "^1.4.2"
+    prop-types "^15.7.2"
+    react "^16.8.5"
+    react-dom "^16.8.5"
+    tcomb "^3.2.17"
+    tcomb-validation "^3.3.0"
+    validator "^10.11.0"
+    yargs "^13.2.2"
+
+mochawesome-report-generator@^3.0.1:
   version "3.1.5"
   resolved "https://registry.yarnpkg.com/mochawesome-report-generator/-/mochawesome-report-generator-3.1.5.tgz#72c74d693c91884f7aeda29f7047e082769a4863"
   integrity sha512-/lFmlpY1cPfLXmV/Qb7kprbQS5VYExEaJGRR86rCLYUdLQM5uivIwvulUEt5VV9mbK/GttN2XPb8al7/5VgtOw==
@@ -11771,7 +11790,7 @@ react-dev-utils@^8.0.0:
     strip-ansi "5.0.0"
     text-table "0.2.0"
 
-react-dom@16.8.6, react-dom@^16.0.0:
+react-dom@16.8.6, react-dom@^16.0.0, react-dom@^16.8.5:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
   integrity sha512-1nL7PIq9LTL3fthPqwkvr2zY7phIPjYrT0jp4HjyEQrEROnw4dG41VVwi/wfoCneoleqrNX7iAD+pXebJZwrwA==
@@ -11889,7 +11908,7 @@ react-test-renderer@16.8.6, react-test-renderer@^16.0.0-0:
     react-is "^16.8.6"
     scheduler "^0.13.6"
 
-react@16.8.6, react@^16.0.0:
+react@16.8.6, react@^16.0.0, react@^16.8.5:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
   integrity sha512-pC0uMkhLaHm11ZSJULfOBqV4tIZkx87ZLvbbQYunNixAAvjnC+snJCg0XQXn9VIsttVsbZP/H/ewzgsd5fxKXw==
@@ -14475,6 +14494,11 @@ validate-npm-package-license@^3.0.1:
   dependencies:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
+
+validator@^10.11.0:
+  version "10.11.0"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-10.11.0.tgz#003108ea6e9a9874d31ccc9e5006856ccd76b228"
+  integrity sha512-X/p3UZerAIsbBfN/IwahhYaBbY68EN/UQBWHtsbXGT5bfrH/p4NQzUCG1kF/rtKaNpnJ7jAu6NGTdSNtyNIXMw==
 
 validator@^9.1.2:
   version "9.4.1"
