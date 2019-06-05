@@ -25,7 +25,8 @@
     "types": [
       "react",
       "react-dom",
-      "jest"
+      "jest",
+      "../@testing-library/cypress/typings"
     ],
     "resolveJsonModule": true
   },
