@@ -10,8 +10,7 @@ const handleParallaxTextScroll = () => {
   const x = window.scrollY;
   const parallaxText = document.getElementById('parallax-text');
   if (parallaxText) {
-    parallaxText.style.backgroundPosition =
-      '100% ' + -x / 1 + 'px' + ', 0%  0%, center top';
+    parallaxText.style.backgroundPosition = `100%  + -${x} / 1 + px + , 0%  0%, center top`;
   }
 };
 

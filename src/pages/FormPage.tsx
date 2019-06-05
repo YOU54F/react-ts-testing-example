@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { render } from 'react-dom';
 
 import { Field, Form, Formik, FormikActions } from 'formik';
 
