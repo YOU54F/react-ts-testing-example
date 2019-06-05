@@ -20,7 +20,7 @@ exports[`Gallery Page can render the Gallery page 1`] = `
         alt="grid"
         className="grid-image"
         id="grid-item-0"
-        src="https://loremflickr.com/100/150"
+        src="https://picsum.photos/100/150"
       />
     </div>
     <div
@@ -49,7 +49,7 @@ exports[`Gallery Page can render the Gallery page 1`] = `
         alt="grid"
         className="grid-image"
         id="grid-item-2"
-        src="https://loremflickr.com/100/150"
+        src="https://picsum.photos/100/150"
       />
     </div>
     <div
@@ -78,7 +78,7 @@ exports[`Gallery Page can render the Gallery page 1`] = `
         alt="grid"
         className="grid-image"
         id="grid-item-4"
-        src="https://loremflickr.com/100/150"
+        src="https://picsum.photos/100/150"
       />
     </div>
     <div
@@ -107,7 +107,7 @@ exports[`Gallery Page can render the Gallery page 1`] = `
         alt="grid"
         className="grid-image"
         id="grid-item-6"
-        src="https://loremflickr.com/100/150"
+        src="https://picsum.photos/100/150"
       />
     </div>
     <div
@@ -136,7 +136,7 @@ exports[`Gallery Page can render the Gallery page 1`] = `
         alt="grid"
         className="grid-image"
         id="grid-item-8"
-        src="https://loremflickr.com/100/150"
+        src="https://picsum.photos/100/150"
       />
     </div>
     <div
@@ -165,7 +165,7 @@ exports[`Gallery Page can render the Gallery page 1`] = `
         alt="grid"
         className="grid-image"
         id="grid-item-10"
-        src="https://loremflickr.com/100/150"
+        src="https://picsum.photos/100/150"
       />
     </div>
     <div
@@ -194,7 +194,7 @@ exports[`Gallery Page can render the Gallery page 1`] = `
         alt="grid"
         className="grid-image"
         id="grid-item-12"
-        src="https://loremflickr.com/100/150"
+        src="https://picsum.photos/100/150"
       />
     </div>
     <div
@@ -223,7 +223,7 @@ exports[`Gallery Page can render the Gallery page 1`] = `
         alt="grid"
         className="grid-image"
         id="grid-item-14"
-        src="https://loremflickr.com/100/150"
+        src="https://picsum.photos/100/150"
       />
     </div>
   </div>
