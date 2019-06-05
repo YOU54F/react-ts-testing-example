@@ -17,7 +17,7 @@ exports[`Gallery Page can render the Gallery page 1`] = `
       }
     >
       <img
-        alt="grid-image"
+        alt="grid"
         className="grid-image"
         id="grid-item-0"
         src="https://loremflickr.com/100/150"
@@ -46,7 +46,7 @@ exports[`Gallery Page can render the Gallery page 1`] = `
       }
     >
       <img
-        alt="grid-image"
+        alt="grid"
         className="grid-image"
         id="grid-item-2"
         src="https://loremflickr.com/100/150"
@@ -75,7 +75,7 @@ exports[`Gallery Page can render the Gallery page 1`] = `
       }
     >
       <img
-        alt="grid-image"
+        alt="grid"
         className="grid-image"
         id="grid-item-4"
         src="https://loremflickr.com/100/150"
@@ -104,7 +104,7 @@ exports[`Gallery Page can render the Gallery page 1`] = `
       }
     >
       <img
-        alt="grid-image"
+        alt="grid"
         className="grid-image"
         id="grid-item-6"
         src="https://loremflickr.com/100/150"
@@ -133,7 +133,7 @@ exports[`Gallery Page can render the Gallery page 1`] = `
       }
     >
       <img
-        alt="grid-image"
+        alt="grid"
         className="grid-image"
         id="grid-item-8"
         src="https://loremflickr.com/100/150"
@@ -162,7 +162,7 @@ exports[`Gallery Page can render the Gallery page 1`] = `
       }
     >
       <img
-        alt="grid-image"
+        alt="grid"
         className="grid-image"
         id="grid-item-10"
         src="https://loremflickr.com/100/150"
@@ -191,7 +191,7 @@ exports[`Gallery Page can render the Gallery page 1`] = `
       }
     >
       <img
-        alt="grid-image"
+        alt="grid"
         className="grid-image"
         id="grid-item-12"
         src="https://loremflickr.com/100/150"
@@ -220,7 +220,7 @@ exports[`Gallery Page can render the Gallery page 1`] = `
       }
     >
       <img
-        alt="grid-image"
+        alt="grid"
         className="grid-image"
         id="grid-item-14"
         src="https://loremflickr.com/100/150"
