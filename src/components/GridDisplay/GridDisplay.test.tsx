@@ -25,21 +25,21 @@ describe('Grid Display', () => {
       .create(
         <GridDisplay
           gridItems={[
-            'https://loremflickr.com/100/150',
+            'https://picsum.photos/100/150',
             'An',
-            'https://loremflickr.com/100/150',
+            'https://picsum.photos/100/150',
             ' ',
-            'https://loremflickr.com/100/150',
+            'https://picsum.photos/100/150',
             ' ',
-            'https://loremflickr.com/100/150',
+            'https://picsum.photos/100/150',
             'Example',
-            'https://loremflickr.com/100/150',
+            'https://picsum.photos/100/150',
             ' ',
-            'https://loremflickr.com/100/150',
+            'https://picsum.photos/100/150',
             ' ',
-            'https://loremflickr.com/100/150',
+            'https://picsum.photos/100/150',
             'Website',
-            'https://loremflickr.com/100/150'
+            'https://picsum.photos/100/150'
           ]}
         />
       )
