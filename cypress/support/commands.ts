@@ -1,5 +1,5 @@
 // add new command to the existing Cypress interface
-import 'cypress-testing-library/add-commands';
+import '@testing-library/cypress/add-commands';
 
 declare global {
   namespace Cypress {
