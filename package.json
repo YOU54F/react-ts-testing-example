@@ -124,7 +124,7 @@
     "stylelint-config-standard": "18.3.0",
     "stylelint-no-unsupported-browser-features": "3.0.2",
     "ts-jest": "24.0.2",
-    "ts-loader": "6.0.2",
+    "ts-loader": "6.0.3",
     "tslint": "5.17.0",
     "tslint-config-prettier": "1.18.0",
     "tslint-react": "4.0.0",
