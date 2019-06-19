@@ -93,7 +93,7 @@
     "@types/node": "11.13.14",
     "@types/react": "16.8.20",
     "@types/react-dom": "16.8.4",
-    "@types/react-router-dom": "4.3.3",
+    "@types/react-router-dom": "4.3.4",
     "@types/react-test-renderer": "16.8.2",
     "aws-sdk": "2.474.0",
     "compat-cli": "0.1.4",
