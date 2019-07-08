@@ -109,7 +109,7 @@
     "lint-staged": "9.1.0",
     "mocha": "6.1.4",
     "mocha-junit-reporter": "1.23.0",
-    "cypress-multi-reporters": "1.1.22",
+    "cypress-multi-reporters": "1.1.23",
     "mochawesome-merge": "2.0.1",
     "mochawesome-report-generator": "4.0.1",
     "cypress-slack-reporter": "0.4.1",
