@@ -87,7 +87,7 @@
   },
   "devDependencies": {
     "@cypress/webpack-preprocessor": "4.1.0",
-    "@slack/client": "5.0.1",
+    "@slack/client": "5.0.2",
     "@types/enzyme": "3.10.3",
     "@types/jest": "24.0.15",
     "@types/node": "11.13.18",
