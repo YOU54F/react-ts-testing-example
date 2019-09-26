@@ -8285,10 +8285,10 @@ jest-haste-map@^24.8.0:
   optionalDependencies:
     fsevents "^1.2.7"
 
-jest-html-reporter@2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/jest-html-reporter/-/jest-html-reporter-2.6.0.tgz#a21f04d33395cb73b492ed45d25223649732e3b0"
-  integrity sha512-8gkZlgyakdqHiq1n2n1KYrqTT8N41y4vkIVKSQumocpz2n9gN9NZuZqUzPPf0wBFNYKfr0UwQpXGQLB5IwKYiA==
+jest-html-reporter@2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/jest-html-reporter/-/jest-html-reporter-2.6.1.tgz#050798cf32f8a2936ab9813999df44c188df5366"
+  integrity sha512-/xaiBfKK+0eciK7iklu1zPAUsgcjD5m3bv/lWWjWw5jPs/Ft0SEWwg3Y/Ii05orPQqet//wpI3sqPBCzGfl/pw==
   dependencies:
     dateformat "3.0.2"
     mkdirp "0.5.1"
