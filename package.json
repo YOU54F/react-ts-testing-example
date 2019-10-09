@@ -7,7 +7,7 @@
   "repository": "https://github.com/YOU54F/react-ts-testing-example",
   "dependencies": {
     "enzyme": "3.10.0",
-    "enzyme-adapter-react-16": "1.14.0",
+    "enzyme-adapter-react-16": "1.15.0",
     "formik": "1.5.8",
     "jest-enzyme": "7.1.1",
     "react": "16.10.2",
