@@ -11200,13 +11200,13 @@ mocha@6.2.2:
     yargs-parser "13.1.1"
     yargs-unparser "1.6.0"
 
-mochawesome-merge@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/mochawesome-merge/-/mochawesome-merge-2.1.0.tgz#fc23aedc6fe36de6835869df3db04e9ce4121755"
-  integrity sha512-9t/losbbA4tBDwjOo9OPoyv39gfFcsqX2NmLIcYmTVhsZxm0ahy8UDiFsxsF+TFKFbXOnny4qBOqp5VHeF/e6Q==
+mochawesome-merge@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/mochawesome-merge/-/mochawesome-merge-3.0.0.tgz#c86f51fbe6c6d92915209a7cbd5a5e6145cdee67"
+  integrity sha512-5KFRzUEodorXYSi+NjPFoXumZT+N8QlN2S+yt4/2+y9wH/RAydBsruu/49Hxo8ML9mz62jIAr6F/JdNp77/o6Q==
   dependencies:
     fs-extra "^7.0.1"
-    minimatch "^3.0.4"
+    glob "^7.1.6"
     uuid "^3.3.2"
     yargs "^12.0.5"
 
