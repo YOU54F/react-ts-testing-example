@@ -121,7 +121,7 @@
     "sonarqube-scanner": "2.5.0",
     "start-server-and-test": "1.10.7",
     "stylelint": "12.0.1",
-    "stylelint-config-standard": "19.0.0",
+    "stylelint-config-standard": "20.0.0",
     "stylelint-no-unsupported-browser-features": "4.0.0",
     "ts-jest": "25.2.0",
     "ts-loader": "6.2.1",
