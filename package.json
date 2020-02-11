@@ -97,7 +97,7 @@
     "@types/react-test-renderer": "16.9.2",
     "aws-sdk": "2.615.0",
     "compat-cli": "0.1.4",
-    "cypress": "3.8.3",
+    "cypress": "4.0.1",
     "cypress-cucumber-preprocessor": "2.0.1",
     "cypress-failed-log": "2.6.0",
     "@testing-library/cypress": "4.1.0",
