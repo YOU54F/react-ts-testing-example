@@ -28,7 +28,7 @@ jobs:
             - ~/.cache
       - run:
           name: Install jq
-          command: apt-get update && apt-get install jq xsel  
+          command: apt-get update && apt-get install -y jq xsel  
 
       # run tests!
       - run: yarn test:coverage
