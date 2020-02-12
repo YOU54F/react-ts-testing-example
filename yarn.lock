@@ -11327,15 +11327,14 @@ mocha@7.0.1:
     yargs-parser "13.1.1"
     yargs-unparser "1.6.0"
 
-mochawesome-merge@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/mochawesome-merge/-/mochawesome-merge-2.1.0.tgz#fc23aedc6fe36de6835869df3db04e9ce4121755"
-  integrity sha512-9t/losbbA4tBDwjOo9OPoyv39gfFcsqX2NmLIcYmTVhsZxm0ahy8UDiFsxsF+TFKFbXOnny4qBOqp5VHeF/e6Q==
+mochawesome-merge@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/mochawesome-merge/-/mochawesome-merge-4.0.0.tgz#65b7ea1e4aaf0d5db41af4ad5107ea8edea9ee22"
+  integrity sha512-1KtyBUGtckWBXssyvLZrr/BSTkBpFlZ3x5f8yMPXfOeGWAS1zwfb+ZAOqA0+0f+2CoUYh3jLNHIE60AaKIWaUg==
   dependencies:
     fs-extra "^7.0.1"
-    minimatch "^3.0.4"
+    glob "^7.1.6"
     uuid "^3.3.2"
-    yargs "^12.0.5"
 
 mochawesome-report-generator@4.1.0:
   version "4.1.0"
@@ -17403,7 +17402,7 @@ yargs-unparser@1.6.0:
     lodash "^4.17.15"
     yargs "^13.3.0"
 
-yargs@12.0.5, yargs@^12.0.2, yargs@^12.0.5:
+yargs@12.0.5, yargs@^12.0.2:
   version "12.0.5"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-12.0.5.tgz#05f5997b609647b64f66b81e3b4b10a368e7ad13"
   integrity sha512-Lhz8TLaYnxq/2ObqHDql8dX8CJi97oHxrjUcYtzKbbykPtVW9WB+poxI+NM2UIzsMgNCZTIf0AQwsjK5yMAqZw==
