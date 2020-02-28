@@ -128,7 +128,7 @@
     "tslint": "5.20.1",
     "tslint-config-prettier": "1.18.0",
     "tslint-react": "4.1.0",
-    "typescript": "3.8.2",
+    "typescript": "3.8.3",
     "uuid": "3.4.0"
   },
   "cypress-cucumber-preprocessor": {
