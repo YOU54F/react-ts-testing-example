@@ -102,7 +102,7 @@
     "cypress-failed-log": "2.6.2",
     "@testing-library/cypress": "4.1.0",
     "eslint-plugin-compat": "3.5.1",
-    "husky": "4.2.4",
+    "husky": "4.2.5",
     "jest-html-reporter": "2.8.2",
     "jest-junit": "10.0.0",
     "jest-stare": "1.27.0",
