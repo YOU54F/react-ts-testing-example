@@ -95,7 +95,7 @@
     "@types/react-dom": "16.9.8",
     "@types/react-router-dom": "5.1.5",
     "@types/react-test-renderer": "16.9.3",
-    "aws-sdk": "2.752.0",
+    "aws-sdk": "2.753.0",
     "compat-cli": "0.1.4",
     "cypress": "4.8.0",
     "cypress-cucumber-preprocessor": "2.5.5",
