@@ -120,7 +120,7 @@
     "shelljs": "0.8.4",
     "sonarqube-scanner": "2.7.0",
     "start-server-and-test": "1.11.4",
-    "stylelint": "13.7.1",
+    "stylelint": "13.7.2",
     "stylelint-config-standard": "20.0.0",
     "stylelint-no-unsupported-browser-features": "4.0.0",
     "ts-jest": "25.5.1",
