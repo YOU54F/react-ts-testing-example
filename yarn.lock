@@ -3357,10 +3357,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-11.13.6.tgz#37ec75690830acb0d74ce3c6c43caab787081e85"
   integrity sha512-Xoo/EBzEe8HxTSwaZNLZjaW6M6tA/+GmD3/DZ6uo8qSaolE/9Oarko0oV1fVfrLqOz0tx0nXJB4rdD5c+vixLw==
 
-"@types/node@11.15.28":
-  version "11.15.28"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-11.15.28.tgz#7e0d82a09816ebe231147116b1cd8cc7b7ee4f80"
-  integrity sha512-WTUq04B1W5KXyhlvZNWwIknoUAY/84yxvDjV4a8qjXmKnde31AsYz1+gU0Rg0MYs988r9klwPRrXvWhuAYXIjQ==
+"@types/node@11.15.29":
+  version "11.15.29"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-11.15.29.tgz#f8d8831ef4c6961de748aeb37588b419b043bf27"
+  integrity sha512-qX3rjMp9f9SiectkYjMz66Yvoyte3W8gRPQ6wmNjtt/Y7tHP/okNE2mFCvaMY/fCgWJsNRSmHfe6Oo0CsjZgdA==
 
 "@types/node@^12.12.7":
   version "12.12.38"
