@@ -103,7 +103,7 @@
     "@testing-library/cypress": "4.1.0",
     "eslint-plugin-compat": "3.8.0",
     "husky": "4.3.0",
-    "jest-html-reporter": "3.2.0",
+    "jest-html-reporter": "3.3.0",
     "jest-junit": "10.0.0",
     "jest-stare": "2.2.0",
     "lint-staged": "10.4.0",
