@@ -118,7 +118,7 @@
     "prettier": "2.1.2",
     "react-test-renderer": "16.13.1",
     "shelljs": "0.8.4",
-    "sonarqube-scanner": "2.7.0",
+    "sonarqube-scanner": "2.8.0",
     "start-server-and-test": "1.11.5",
     "stylelint": "13.7.2",
     "stylelint-config-standard": "20.0.0",
