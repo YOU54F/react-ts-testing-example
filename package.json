@@ -86,7 +86,7 @@
     "reportDir": "testReports/unit"
   },
   "devDependencies": {
-    "@cypress/webpack-preprocessor": "5.4.10",
+    "@cypress/webpack-preprocessor": "5.4.11",
     "@slack/client": "5.0.2",
     "@types/enzyme": "3.10.8",
     "@types/jest": "25.2.3",
