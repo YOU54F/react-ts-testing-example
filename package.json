@@ -94,7 +94,7 @@
     "@types/react": "16.14.1",
     "@types/react-dom": "16.9.9",
     "@types/react-router-dom": "5.1.6",
-    "@types/react-test-renderer": "16.9.3",
+    "@types/react-test-renderer": "16.9.4",
     "aws-sdk": "2.797.0",
     "compat-cli": "0.1.4",
     "cypress": "4.8.0",
